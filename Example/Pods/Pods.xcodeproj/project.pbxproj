@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B52C14C75374224935B81F996393989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D383D2EE8F5BCC6CF5ACC2EE392B8A1 /* Pods-NewRelicVideoCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F12DA5945516D82FB6A3FB25F075C68 /* Pods-NewRelicVideoCore_Tests-dummy.m */; };
+		134695F8418BD39B7AD69552394D8083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		389B8446ED8C11F80DF5519679D2364C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0688ED51272071DD054BD8C5A1B46C /* ReplaceMe.swift */; };
+		660C2A0E2A869FA4894795290B36C006 /* Pods-NewRelicVideoCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C36119887F9F955DBBFAF809D5BA73B9 /* Pods-NewRelicVideoCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD6CAF4381668894041ACFE02647716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7AC4BAE0DE3E35A473B9D91B5C0C09A9 /* NewRelicVideoCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F241E4FE7424569F251C9A63B48AFD4 /* NewRelicVideoCore-dummy.m */; };
+		A328E99C4E9607387CD5F7E13E7C3A4B /* Pods-NewRelicVideoCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0C25C198F1E41CA2AEF3F17EECE707 /* Pods-NewRelicVideoCore_Example-dummy.m */; };
+		DD6BCEC796E9EC5B03CB176AD0578B7F /* NewRelicVideoCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88832DF5EDB7ABE999CB5D40C8C25A85 /* NewRelicVideoCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8575A5359B3C25F751691673C227B91 /* Pods-NewRelicVideoCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6D9BBB46A84D4BC97D2D7606C2CE6B /* Pods-NewRelicVideoCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		442EDC353ED3610122605BC0921EBC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34228C47D92A8F632BDA1473BF29982B;
+			remoteInfo = NewRelicVideoCore;
+		};
+		5C4D16F6B5991F6D3B90BAEDCD39BFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FA27B773CDC94F43D719CF76913934;
+			remoteInfo = "Pods-NewRelicVideoCore_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B162B5D2578F531D0C88553AA9BC85 /* NewRelicVideoCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NewRelicVideoCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		108F622F14A7859DF21B7B3897AC6F1C /* Pods-NewRelicVideoCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRelicVideoCore_Tests"; path = Pods_NewRelicVideoCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E68ABD13A43BD2C5FB2931D82563E4 /* Pods-NewRelicVideoCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelicVideoCore_Example-Info.plist"; sourceTree = "<group>"; };
+		24BBCF7F01BBA9E07515282BD01284C1 /* Pods-NewRelicVideoCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelicVideoCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F241E4FE7424569F251C9A63B48AFD4 /* NewRelicVideoCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NewRelicVideoCore-dummy.m"; sourceTree = "<group>"; };
+		411A0A9CF66AB2D288F5CA7DF3AE1B98 /* Pods-NewRelicVideoCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewRelicVideoCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		486A9A795238E8125CCA5B5991082C6D /* NewRelicVideoCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NewRelicVideoCore-Info.plist"; sourceTree = "<group>"; };
+		49C0BC82973D3C11E9A444F60B5BCACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C0688ED51272071DD054BD8C5A1B46C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NewRelicVideoCore/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5F9F9D95E37D9287BB8E208E826F38C1 /* Pods-NewRelicVideoCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRelicVideoCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		626697AD4E85CF14D5D7AABA0B163855 /* Pods-NewRelicVideoCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelicVideoCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB23755F4F0E1A4751D18E47C679FD4 /* Pods-NewRelicVideoCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRelicVideoCore_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		746B988414B96000A62BD33AF1BD2CA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		788C6F6116188ED3F37EC8A1703ED75D /* Pods-NewRelicVideoCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRelicVideoCore_Example.modulemap"; sourceTree = "<group>"; };
+		79B47218433FF303CE9C53D2CCC26388 /* Pods-NewRelicVideoCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRelicVideoCore_Example"; path = Pods_NewRelicVideoCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88832DF5EDB7ABE999CB5D40C8C25A85 /* NewRelicVideoCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewRelicVideoCore-umbrella.h"; sourceTree = "<group>"; };
+		8BAED9378B50F2E048175468A1F1BE8D /* Pods-NewRelicVideoCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelicVideoCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9965F0ECC4B5F7F6B6A2CE2653B2ED24 /* NewRelicVideoCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NewRelicVideoCore; path = NewRelicVideoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F12DA5945516D82FB6A3FB25F075C68 /* Pods-NewRelicVideoCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRelicVideoCore_Tests-dummy.m"; sourceTree = "<group>"; };
+		A3992702E78DF62FF1129CD866D8E746 /* Pods-NewRelicVideoCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelicVideoCore_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF0092A602EDD686BF32A5E8F3F7AB08 /* NewRelicVideoCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewRelicVideoCore.release.xcconfig; sourceTree = "<group>"; };
+		C2CCF8C10D303A256B4F875FA080CE7F /* Pods-NewRelicVideoCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelicVideoCore_Tests-Info.plist"; sourceTree = "<group>"; };
+		C36119887F9F955DBBFAF809D5BA73B9 /* Pods-NewRelicVideoCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRelicVideoCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		CCD3BBB6670DB3D32EF87EEC49BF17C1 /* NewRelicVideoCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewRelicVideoCore.debug.xcconfig; sourceTree = "<group>"; };
+		DA8537CC62203CFC8DE6AE91B8B7D0BA /* NewRelicVideoCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NewRelicVideoCore.modulemap; sourceTree = "<group>"; };
+		DE0C25C198F1E41CA2AEF3F17EECE707 /* Pods-NewRelicVideoCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRelicVideoCore_Example-dummy.m"; sourceTree = "<group>"; };
+		DF6D9BBB46A84D4BC97D2D7606C2CE6B /* Pods-NewRelicVideoCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRelicVideoCore_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7AF43D2E76341E24A783535531C18E6 /* Pods-NewRelicVideoCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelicVideoCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED35B7622EBF4E0B0A91A189A1C9EDCC /* Pods-NewRelicVideoCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelicVideoCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2DDFB52D5A72468F25B873443804D5E /* NewRelicVideoCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewRelicVideoCore-prefix.pch"; sourceTree = "<group>"; };
+		FEED53F768393E82AB53745CCEDEB01E /* Pods-NewRelicVideoCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRelicVideoCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A736CA642AC6B476972F46813CEAA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B52C14C75374224935B81F996393989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AE8B71F9DD1447D9F8F421D168045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134695F8418BD39B7AD69552394D8083 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBEFE28BB53DDFBEDC5D6C9662AE055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD6CAF4381668894041ACFE02647716 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F25917D9EC79ED900BA9B57C300AFDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8537CC62203CFC8DE6AE91B8B7D0BA /* NewRelicVideoCore.modulemap */,
+				3F241E4FE7424569F251C9A63B48AFD4 /* NewRelicVideoCore-dummy.m */,
+				486A9A795238E8125CCA5B5991082C6D /* NewRelicVideoCore-Info.plist */,
+				F2DDFB52D5A72468F25B873443804D5E /* NewRelicVideoCore-prefix.pch */,
+				88832DF5EDB7ABE999CB5D40C8C25A85 /* NewRelicVideoCore-umbrella.h */,
+				CCD3BBB6670DB3D32EF87EEC49BF17C1 /* NewRelicVideoCore.debug.xcconfig */,
+				AF0092A602EDD686BF32A5E8F3F7AB08 /* NewRelicVideoCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NewRelicVideoCore";
+			sourceTree = "<group>";
+		};
+		2BC35801D0C348409823E3AD1263E87B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A510EEDA359C4FDF0C48CA58F5CCCD38 /* NewRelicVideoCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		474D8501C323D676ACF0F0F7B2A42B6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8231D05C9FB2020346B6C2BD439744F /* Pods-NewRelicVideoCore_Example */,
+				63F84C29DCBA679217194440FB32CCFD /* Pods-NewRelicVideoCore_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63F84C29DCBA679217194440FB32CCFD /* Pods-NewRelicVideoCore_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB23755F4F0E1A4751D18E47C679FD4 /* Pods-NewRelicVideoCore_Tests.modulemap */,
+				FEED53F768393E82AB53745CCEDEB01E /* Pods-NewRelicVideoCore_Tests-acknowledgements.markdown */,
+				ED35B7622EBF4E0B0A91A189A1C9EDCC /* Pods-NewRelicVideoCore_Tests-acknowledgements.plist */,
+				9F12DA5945516D82FB6A3FB25F075C68 /* Pods-NewRelicVideoCore_Tests-dummy.m */,
+				C2CCF8C10D303A256B4F875FA080CE7F /* Pods-NewRelicVideoCore_Tests-Info.plist */,
+				DF6D9BBB46A84D4BC97D2D7606C2CE6B /* Pods-NewRelicVideoCore_Tests-umbrella.h */,
+				626697AD4E85CF14D5D7AABA0B163855 /* Pods-NewRelicVideoCore_Tests.debug.xcconfig */,
+				8BAED9378B50F2E048175468A1F1BE8D /* Pods-NewRelicVideoCore_Tests.release.xcconfig */,
+			);
+			name = "Pods-NewRelicVideoCore_Tests";
+			path = "Target Support Files/Pods-NewRelicVideoCore_Tests";
+			sourceTree = "<group>";
+		};
+		68CBBD87DF885D2EC0E988ED1950C858 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49C0BC82973D3C11E9A444F60B5BCACD /* LICENSE */,
+				05B162B5D2578F531D0C88553AA9BC85 /* NewRelicVideoCore.podspec */,
+				746B988414B96000A62BD33AF1BD2CA3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A510EEDA359C4FDF0C48CA58F5CCCD38 /* NewRelicVideoCore */ = {
+			isa = PBXGroup;
+			children = (
+				5C0688ED51272071DD054BD8C5A1B46C /* ReplaceMe.swift */,
+				68CBBD87DF885D2EC0E988ED1950C858 /* Pod */,
+				0F25917D9EC79ED900BA9B57C300AFDB /* Support Files */,
+			);
+			name = NewRelicVideoCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B8231D05C9FB2020346B6C2BD439744F /* Pods-NewRelicVideoCore_Example */ = {
+			isa = PBXGroup;
+			children = (
+				788C6F6116188ED3F37EC8A1703ED75D /* Pods-NewRelicVideoCore_Example.modulemap */,
+				5F9F9D95E37D9287BB8E208E826F38C1 /* Pods-NewRelicVideoCore_Example-acknowledgements.markdown */,
+				24BBCF7F01BBA9E07515282BD01284C1 /* Pods-NewRelicVideoCore_Example-acknowledgements.plist */,
+				DE0C25C198F1E41CA2AEF3F17EECE707 /* Pods-NewRelicVideoCore_Example-dummy.m */,
+				411A0A9CF66AB2D288F5CA7DF3AE1B98 /* Pods-NewRelicVideoCore_Example-frameworks.sh */,
+				18E68ABD13A43BD2C5FB2931D82563E4 /* Pods-NewRelicVideoCore_Example-Info.plist */,
+				C36119887F9F955DBBFAF809D5BA73B9 /* Pods-NewRelicVideoCore_Example-umbrella.h */,
+				E7AF43D2E76341E24A783535531C18E6 /* Pods-NewRelicVideoCore_Example.debug.xcconfig */,
+				A3992702E78DF62FF1129CD866D8E746 /* Pods-NewRelicVideoCore_Example.release.xcconfig */,
+			);
+			name = "Pods-NewRelicVideoCore_Example";
+			path = "Target Support Files/Pods-NewRelicVideoCore_Example";
+			sourceTree = "<group>";
+		};
+		C367F386C8A6AA48F7CCBD71A3B82A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9965F0ECC4B5F7F6B6A2CE2653B2ED24 /* NewRelicVideoCore */,
+				79B47218433FF303CE9C53D2CCC26388 /* Pods-NewRelicVideoCore_Example */,
+				108F622F14A7859DF21B7B3897AC6F1C /* Pods-NewRelicVideoCore_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2BC35801D0C348409823E3AD1263E87B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C367F386C8A6AA48F7CCBD71A3B82A7A /* Products */,
+				474D8501C323D676ACF0F0F7B2A42B6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BEF9FE4C91DDC75F991872D5DB4202A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8575A5359B3C25F751691673C227B91 /* Pods-NewRelicVideoCore_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A3B14C51AA3184ED3E84B6BDB87EE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6BCEC796E9EC5B03CB176AD0578B7F /* NewRelicVideoCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15C23BFA866885F104175228E6ECB30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660C2A0E2A869FA4894795290B36C006 /* Pods-NewRelicVideoCore_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25FA27B773CDC94F43D719CF76913934 /* Pods-NewRelicVideoCore_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C43EFC9DF66249059661BD651D98B6 /* Build configuration list for PBXNativeTarget "Pods-NewRelicVideoCore_Example" */;
+			buildPhases = (
+				F15C23BFA866885F104175228E6ECB30 /* Headers */,
+				8DBED3A246D988C339D8AEAA8A02A337 /* Sources */,
+				0A736CA642AC6B476972F46813CEAA46 /* Frameworks */,
+				B1E4380D9C50D10F639C2DC4F2CCE235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F62AC997F29DD53D434FBC65DB961FC /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRelicVideoCore_Example";
+			productName = Pods_NewRelicVideoCore_Example;
+			productReference = 79B47218433FF303CE9C53D2CCC26388 /* Pods-NewRelicVideoCore_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		34228C47D92A8F632BDA1473BF29982B /* NewRelicVideoCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611D14819BD3027CBD546B836719627D /* Build configuration list for PBXNativeTarget "NewRelicVideoCore" */;
+			buildPhases = (
+				99A3B14C51AA3184ED3E84B6BDB87EE2 /* Headers */,
+				357B1220E96B1771E8092E22AC4D0DF5 /* Sources */,
+				FCBEFE28BB53DDFBEDC5D6C9662AE055 /* Frameworks */,
+				814C0848F2C2F9EDFFE1E8E90BEE169C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewRelicVideoCore;
+			productName = NewRelicVideoCore;
+			productReference = 9965F0ECC4B5F7F6B6A2CE2653B2ED24 /* NewRelicVideoCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		429F2B7CD637F6C967867D5B47C6A5D2 /* Pods-NewRelicVideoCore_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4888FC947EAC279544BE29A6B47BCF /* Build configuration list for PBXNativeTarget "Pods-NewRelicVideoCore_Tests" */;
+			buildPhases = (
+				6BEF9FE4C91DDC75F991872D5DB4202A /* Headers */,
+				8B6B29FED31DD00AC8519256212CD0B9 /* Sources */,
+				866AE8B71F9DD1447D9F8F421D168045 /* Frameworks */,
+				0D316CD59C943A03CC9A0C12F18E0F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66883C5837BFD15C7716C920E51FC8F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRelicVideoCore_Tests";
+			productName = Pods_NewRelicVideoCore_Tests;
+			productReference = 108F622F14A7859DF21B7B3897AC6F1C /* Pods-NewRelicVideoCore_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C367F386C8A6AA48F7CCBD71A3B82A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34228C47D92A8F632BDA1473BF29982B /* NewRelicVideoCore */,
+				25FA27B773CDC94F43D719CF76913934 /* Pods-NewRelicVideoCore_Example */,
+				429F2B7CD637F6C967867D5B47C6A5D2 /* Pods-NewRelicVideoCore_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D316CD59C943A03CC9A0C12F18E0F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814C0848F2C2F9EDFFE1E8E90BEE169C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E4380D9C50D10F639C2DC4F2CCE235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357B1220E96B1771E8092E22AC4D0DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC4BAE0DE3E35A473B9D91B5C0C09A9 /* NewRelicVideoCore-dummy.m in Sources */,
+				389B8446ED8C11F80DF5519679D2364C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6B29FED31DD00AC8519256212CD0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383D2EE8F5BCC6CF5ACC2EE392B8A1 /* Pods-NewRelicVideoCore_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBED3A246D988C339D8AEAA8A02A337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A328E99C4E9607387CD5F7E13E7C3A4B /* Pods-NewRelicVideoCore_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66883C5837BFD15C7716C920E51FC8F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NewRelicVideoCore_Example";
+			target = 25FA27B773CDC94F43D719CF76913934 /* Pods-NewRelicVideoCore_Example */;
+			targetProxy = 5C4D16F6B5991F6D3B90BAEDCD39BFD4 /* PBXContainerItemProxy */;
+		};
+		7F62AC997F29DD53D434FBC65DB961FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NewRelicVideoCore;
+			target = 34228C47D92A8F632BDA1473BF29982B /* NewRelicVideoCore */;
+			targetProxy = 442EDC353ED3610122605BC0921EBC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		317184DBE971C75A4F0662BB02113298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3992702E78DF62FF1129CD866D8E746 /* Pods-NewRelicVideoCore_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelicVideoCore_Example/Pods-NewRelicVideoCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelicVideoCore_Example/Pods-NewRelicVideoCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D7770EAB780A612DF161EAC86BC3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD3BBB6670DB3D32EF87EEC49BF17C1 /* NewRelicVideoCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore.modulemap";
+				PRODUCT_MODULE_NAME = NewRelicVideoCore;
+				PRODUCT_NAME = NewRelicVideoCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52C44F6884532361B22F0347C5A7FBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626697AD4E85CF14D5D7AABA0B163855 /* Pods-NewRelicVideoCore_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelicVideoCore_Tests/Pods-NewRelicVideoCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelicVideoCore_Tests/Pods-NewRelicVideoCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D70FDD2B8DD162796366F112DCE37A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAED9378B50F2E048175468A1F1BE8D /* Pods-NewRelicVideoCore_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelicVideoCore_Tests/Pods-NewRelicVideoCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelicVideoCore_Tests/Pods-NewRelicVideoCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8698A6A8722D25B6E66443A27FDAD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0092A602EDD686BF32A5E8F3F7AB08 /* NewRelicVideoCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NewRelicVideoCore/NewRelicVideoCore.modulemap";
+				PRODUCT_MODULE_NAME = NewRelicVideoCore;
+				PRODUCT_NAME = NewRelicVideoCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA6D6B94967A2CD54BE31AA42DCCDFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AF43D2E76341E24A783535531C18E6 /* Pods-NewRelicVideoCore_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelicVideoCore_Example/Pods-NewRelicVideoCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelicVideoCore_Example/Pods-NewRelicVideoCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C43EFC9DF66249059661BD651D98B6 /* Build configuration list for PBXNativeTarget "Pods-NewRelicVideoCore_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6D6B94967A2CD54BE31AA42DCCDFBC /* Debug */,
+				317184DBE971C75A4F0662BB02113298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4888FC947EAC279544BE29A6B47BCF /* Build configuration list for PBXNativeTarget "Pods-NewRelicVideoCore_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C44F6884532361B22F0347C5A7FBF4 /* Debug */,
+				D70FDD2B8DD162796366F112DCE37A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611D14819BD3027CBD546B836719627D /* Build configuration list for PBXNativeTarget "NewRelicVideoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D7770EAB780A612DF161EAC86BC3F0 /* Debug */,
+				E8698A6A8722D25B6E66443A27FDAD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

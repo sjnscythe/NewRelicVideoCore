@@ -1,0 +1,16 @@
+PODS:
+  - NewRelicVideoCore (0.1.0)
+
+DEPENDENCIES:
+  - NewRelicVideoCore (from `../`)
+
+EXTERNAL SOURCES:
+  NewRelicVideoCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NewRelicVideoCore: a7e380da92b6ba118f75e872617c24514c930f24
+
+PODFILE CHECKSUM: fdd2b2540b4f83c611da9a6ab18afcbde1d7743d
+
+COCOAPODS: 1.12.0
